@@ -6,9 +6,12 @@
 
 .header{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
+    color: orange;
+    font-weight: 900;
+
 
 }
 
@@ -39,21 +42,87 @@ ul {
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-    font-size: larger;
+    font-size:25px;
+    font-weight: bold;
   }
   
   a:hover{
-    background-color: red;
+    background-color: orange;
   }
 
 
   /*Header section*/
   #head{
     margin-top:10px;
-    padding: 300px;
-    background-color:black;
+    width: 100%;
+    background-color: black;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
 
+
+ }
+#head .best{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+.imghead img{
+    border-radius: 50%;
+    position:absolute;
+    
+    
+
+}
+
+@keyframes fadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+img.top {
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
   }
 
+  .imghead{
+    padding-right: 450px;
+    padding-top: 80px;
+    align-items: center;
+  }
+.imghead .bottom,.top{
+   width: 30%;
 
 
+}
+.best{
+    margin-left: 10px;
+    text-align: center;
+}
+.best h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+.best h4{
+    font-size: 30px;
+    color: orange;
+    line-height: 2em;
+    font-style: italic;
+}
