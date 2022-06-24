@@ -183,7 +183,7 @@ form.searching::after {
 height:500px;
 width: 500px;
 text-align:center;
-box-shadow:0 4px 21px -12px rgba(0, 0, 0,0.79);
+box-shadow:0 6px 24px -14px rgba(0, 0, 0,0.97);
 
 }
 
@@ -215,6 +215,7 @@ box-shadow:0 4px 21px -12px rgba(0, 0, 0,0.79);
   text-align: center;
   padding: 50px;
   overflow: scroll;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .meal:hover .meal-info{
@@ -223,6 +224,14 @@ box-shadow:0 4px 21px -12px rgba(0, 0, 0,0.79);
 
 .meal h3{
 font-family: 'Courier New', Courier, monospace;
-font-size: 20px;
+font-size: 25px;
+font-weight: 900;
 color: orange;
+margin-top:20px;
+margin-bottom: 10px;
+}
+
+.meal h4{
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
 }
