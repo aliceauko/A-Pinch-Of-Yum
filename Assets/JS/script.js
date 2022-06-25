@@ -1,3 +1,4 @@
+//Fetch and dispalay it in the DOM
 const searchBtn = document.getElementById('submit')
 searchBtn.addEventListener('submit', function(e){
     e.preventDefault();
