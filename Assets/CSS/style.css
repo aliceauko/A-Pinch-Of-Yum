@@ -174,10 +174,10 @@ form.searching::after {
   display:grid;
   grid-template-columns: repeat(3 1fr);
   grid-template-columns: auto auto;
-  gap: 100px;
+  gap: 50px;
   justify-content: space-around;
   margin-top: 20px;
-  height: 1800px;
+  width: 100%;
 }
 .meal{
 height:500px;
@@ -234,4 +234,47 @@ margin-bottom: 10px;
 .meal h4{
   font-style: oblique;
   font-family: 'Courier New', Courier, monospace;
+}
+
+
+#tab{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around
+
+}
+
+.content{
+
+  padding: 60px;
+  text-align: center;
+  line-height: 2em;
+  box-shadow: 5px 5px 5px black;
+  border-style: solid;
+  border:3 3 3 3;
+
+}
+.content:hover{
+  box-shadow: 2px 12px 32px black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+#contact{
+  background-color: orange;
+  color: black;
+
+}
+#content:hover{
+  background-image: url("../IMAGES/back.jpg");
+}
+
+#contact > p {
+  font-size: 16px;
+  font-weight: 800px;
+}
+#about{
+background-color: black;
+color: white;
 }
