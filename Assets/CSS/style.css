@@ -51,6 +51,8 @@ ul {
   }
 
 
+
+  
   /*Header section*/
   #head{
     margin-top:10px;
@@ -127,6 +129,11 @@ img.top {
     font-style: italic;
 }
 
+
+
+
+
+/*Search section*/
 #searchcontainer{
 margin-top: 50px;
 display: flex;
@@ -169,6 +176,9 @@ form.searching::after {
   clear: both;
   display: table;
 }
+
+
+/*The fetched items styling*/
 
 #food-items{
   display:grid;
@@ -237,6 +247,8 @@ margin-bottom: 10px;
 }
 
 
+
+/*The contact and about section*/
 #tab{
   margin-top: 120px;
   display: flex;
@@ -275,6 +287,8 @@ margin-bottom: 10px;
 background-color: black;
 color: white;
 }
+
+
 
 
 /*footer*/
