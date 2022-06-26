@@ -9,10 +9,6 @@ searchBtn.addEventListener('submit', function(e){
    let inpValue = e.target.querySelector('input').value
     getMeal(inpValue)
 })
-
-
-
-
 function  getMeal(){
 
     let  searchInp = document.getElementById('sear').value.trim();
@@ -21,8 +17,6 @@ function  getMeal(){
     .then(data=>displayFoods(data))
 
 }
-
-
     const displayFoods =foods =>{
     const foodItemsDiv = document.getElementById('food-items');
     foods.meals.forEach(meal => {

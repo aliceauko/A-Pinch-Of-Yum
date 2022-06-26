@@ -31,6 +31,8 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
     
     
   }
@@ -48,6 +50,7 @@ ul {
   
   a:hover{
     background-color: orange;
+    color: black;
   }
 
 
