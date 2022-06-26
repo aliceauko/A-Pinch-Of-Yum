@@ -12,7 +12,7 @@ Getting:
 ******
 
 ## SCREENSHOTS
-  ![image](./Assets/IMAGES/screenshot.png)
+  ![image](./Assets/IMAGES/screenshot1.png)
 
 ********
 ## SetUp Instruction
