@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
  })
 
 
-  
+  //Filter the data
   let data =[];
   const searchInp = document.getElementById('sear')
   searchInp.addEventListener('keyup', (e) =>{
@@ -30,7 +30,7 @@ function  getMeal(){
      //console.log(data)
 
 }
-
+//display on the DOM
 const meals =[]
    const  displayFoods =foods =>{
     const foodItemsDiv = document.getElementById('food-items');
